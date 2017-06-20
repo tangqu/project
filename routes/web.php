@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/test',function () {
 	return 'this is a test';
 });
+
+Route::get('/test2',function () {
+	return 'this is a test222';
+});
