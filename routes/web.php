@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 
+Route::get('gup',function () {
+	return 'gupeng';
+});
