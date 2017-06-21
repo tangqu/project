@@ -15,20 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-<<<<<<< HEAD
-Route::get('/test',function () {
-	return 'this is a test';
+Route::get('text2',function(){
+	return view('hehhe');
 });
-Route::get('/test3',function () {
-	return 'this is a test3333333333';
-});
-Route::get('/test444',function () {
-	return 'this is a test5555555
-});Route::get('/test5555',function () {
-	return 'this is a test5553';
-});Route::get('/test666',function () {
-	return 'this is a test36666';
-});
-=======
-
->>>>>>> 641524e621d650b650ba169a528341569853f684
