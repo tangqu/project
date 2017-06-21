@@ -22,3 +22,9 @@ Route::get('/test',function () {
 Route::get('/test2',function () {
 	return 'this is a test222';
 });
+
+Route::get('/gp',function () {
+	return 'this is a gp';
+});
+
+
