@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 Route::get('/test',function () {
 	return 'this is a test';
 });
@@ -28,3 +29,6 @@ Route::get('/test444',function () {
 });Route::get('/test666',function () {
 	return 'this is a test36666';
 });
+=======
+
+>>>>>>> 641524e621d650b650ba169a528341569853f684
