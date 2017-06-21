@@ -15,6 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+ hp
 Route::get('text2',function(){
 	return view('hehhe');
 });
+=======
+
+Route::get('gup',function () {
+	return 'gupeng';
+});
+v
