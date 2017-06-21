@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('gu',function () {
+
+Route::get('gup',function () {
 	return 'gupeng';
 });
