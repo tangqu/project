@@ -15,13 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
- 
-Route::get('text2',function(){
-	return view('hehhe');
-});
 
-
-Route::get('gup',function () {
-	return 'gupeng';
-});
 
