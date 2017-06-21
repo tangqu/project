@@ -15,16 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test',function () {
-	return 'this is a test';
+Route::get('gu',function () {
+	return 'gupeng';
 });
-
-Route::get('/test2',function () {
-	return 'this is a test222';
-});
-
-Route::get('/gp',function () {
-	return 'this is a gp';
-});
-
-
