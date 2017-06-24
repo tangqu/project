@@ -1,0 +1,41 @@
+/*头部*/
+.pg-header{
+    background: #F6F6F6;
+    padding: 60px 0 25px;
+    position: relative;
+}
+/*头部中间部分*/
+.pg-head {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    width: 770px;
+}
+.pg-home {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.pg-logbtns {
+    padding: 5px 0;
+}
+/*登录 注册*/
+.pg-logbtns a {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 14px;
+}
+.span {
+    color: #888;
+}
+.pg-logbtns .active {
+    color: #35A2FF!important;
+}
+.login{
+    margin-top: 100px;
+}
+.login input{
+    margin-bottom: 20px;
+}

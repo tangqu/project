@@ -10,7 +10,7 @@
 		<meta name="keywords" content="堆糖类目，家居生活">
 		
 		
-		<link rel="stylesheet" type="text/css" href="/css/home/zgz_init.css">
+		<link rel="stylesheet" type="text/css" href="/css/com/zgz_init.css">
 		<link rel="stylesheet" type="text/css" href="/css/home/zgz_master.css">
 
 		<link rel="stylesheet" type="text/css" href="/css/com/bootstrap.min.css">  
@@ -23,6 +23,7 @@
 	</head>
 	<body>
 		<!-- 网站头部 -->
+		@section('head')
 		<div id="header">
 			<div style="width: 100%; height: 65px;">
 				<div class="pnav-header SG-posfollow" id='header-fixed'>
@@ -54,8 +55,12 @@
 									</div>
 
 									<!-- 头部登录部分 -->
-									
-						            @include('layouts.login')  	
+									@if (Auth::check())
+										@include('layouts.foot')
+									@else
+										@include('layouts.login')
+									@endif
+
 
 								</div>
 							</div>
@@ -65,11 +70,13 @@
 				</div>
 			</div>
 		</div>
+		@show
 
 		<!-- 页面主体 -->
 		@yield('content')
 
 		<!-- 网站尾部 -->
+		@section('foot')
 		<div id="footer" class="footer">
 			<div class="footcont">
 				<div class="footwrap">
@@ -87,6 +94,7 @@
 				</div>
 			</div>
 		</div>
+		@show
 		
 
 		<!-- js区域 -->

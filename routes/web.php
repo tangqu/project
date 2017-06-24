@@ -15,6 +15,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/**
+ * 前台登录注册
+ */
+Route::get('/reg','Home\UserController@regForm');
+Route::post('/doReg','Home\UserController@doReg');
+Route::post('regPhone','Home\UserController@regPhone');
+Route::post('regName','Home\UserController@regName');
+//手机发送验证码路由
+Route::get('sendSms','Home\UserController@sendSms');
+
+Route::get('login','Home\UserController@loginForm');
+Route::post('doLogin','Home\UserController@doLogin');
+Route::get('loginCode','Home\UserController@loginCode');
+Route::get('logout','Home\UserController@logout');
+
 /*
 |--------------------------------------------------------------------------
 | 网站前台

@@ -1,0 +1,26 @@
+body{background-color: #f1f2f3 !important;}
+
+/*个人中心主体*/
+#content {width: 1200px;min-height: 1000px;margin: 0 auto;padding-bottom: 24px;}
+.layer {zoom: 1;width: 100%;margin: 0 auto;}
+.layer .tube {  float: left;  width: 100%;  margin-right: 0;  }
+.tube .blockmb {  margin-bottom: 20px;  }
+
+/*个人中心头部*/
+.people-header {  position: relative;  width: 1200px;  height: 356px;  background:#ccc}
+.people-header-left {width:488px;}
+.people-header-right {width:712px;}
+.people-header-left,.people-header-right {  position: relative;  float: left;  overflow: hidden;  height: 356px;}
+.people-header-left img{-webkit-filter: blur(15px);  /* chrome, opera */}
+.people-header-left .header-bg-mask {  position: absolute;  top: 0;  left: 0;  width: 488px;  height: 356px;  background-color: #000;opacity: .24; }
+
+/*个人中心用户个人信息管理*/
+.people-nav-wrap {margin-bottom: 40px;background-color: #fff;height:64px;}
+.people-nav{text-align:center;margin-left:212px;}
+.people-nav li{float:left;height:61px;font:14px/61px '微软雅黑';color:#888888;cursor:pointer;}
+.woo-self{width:100px;}
+.woo-other{width:145px;}
+.nav-bottom, .nav-bottom-span {height: 3px;overflow: hidden;}
+.nav-bottom{position:relative;margin-top:-10px;}
+.nav-bottom-span {position: absolute;bottom: 0;background-color: #dedfe0;left:215px;}
+
