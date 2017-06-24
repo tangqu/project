@@ -28,7 +28,7 @@
                 {{--用户内容显示排布--}}
                 <div class="woo-holder">
                     {{--导航区--}}
-                    <div class="people-nav-wrap">
+                    <div class="people-nav-wrap" id='daohang'>
                         <ul class="people-nav clearfix" id='daohang'>
                           <li class='woo-other'>专辑</li>  
                           <li class='woo-other'>文章</li>  
@@ -61,8 +61,10 @@
         });
 
         {{--导航栏滑动js--}}
+        var juli1 = $('#daohang').offset().left;
+        console.log(juli1);
         $('#daohang li').click(function () {
-            var juli = $(this).offset().left-110+'px';
+            var juli = $(this).offset().left-juli1+'px';
             $('.nav-bottom-span').css('left',juli);
         });
 
