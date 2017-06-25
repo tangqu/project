@@ -149,4 +149,9 @@ class UserController extends Controller
         Auth::logout();
         return redirect('/');
     }
+
+    public function index()
+    {
+        echo 1;
+    }
 }
