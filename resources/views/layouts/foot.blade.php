@@ -1,7 +1,9 @@
 <div id="dt-header-right">
     <div id="dt-ologin" class="dt-has-menu dropdown">
         <div class="dt-ologin-icons dropdown-toggle" data-toggle="dropdown">
-            <span class="phone-icon"></span>
+
+            <img src="{{url('/picture/home/icon.png')}}" alt="" width='36px' style="border-radius: 50%">
+
             <a class="for-phone">{{Auth::user()->userName}}</a>
             <i></i>
             <!-- <div class="dt-menu">
@@ -14,7 +16,7 @@
         </div>
         <ul class="dropdown-menu">
             <li><a href="{{url('/home/user/person')}}">个人首页</a></li>
-            <li><a href="#">账户设置</a></li>
+            <li><a href="{{url('/home/user/infoEdit')}}">账户设置</a></li>
             <li class="divider"></li>
             <li><a href="{{url('logout')}}">退出</a></li>
         </ul>
