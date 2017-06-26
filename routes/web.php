@@ -66,8 +66,14 @@ Route::group(['prefix' => 'admin','namespace'=>'Admin'],function(){
 
     //后台首页
     Route::get('index','AdminController@index');
+    //后台管理员登录
+    Route::get('login','AdminController@login');
+    Route::get('doCode','AdminController@doCode');
+    Route::post('doLogin','AdminController@doLogin');
     //管理员账号密码修改、退出
     Route::get('editPass','AdminController@editPass');
+    Route::post('doPass','AdminController@doPass');
+    Route::get('logout','AdminController@logout');
 
     //管理员权限管理
     
@@ -87,6 +93,21 @@ Route::group(['prefix' => 'admin','namespace'=>'Admin'],function(){
 
         //用户删除
         Route::get('delete','UserManageController@delete'); 
+    });
+
+    //后台分类管理
+    Route::group(['prefix' => 'category'],function(){
+        //显示分类列表
+        Route::get('list/{pid?}','CategoryController@list');
+        //添加分类
+        Route::get('add/{id?}/{pid?}','CategoryController@add');
+        Route::post('doAdd','CategoryController@doAdd');
+  
+        //修改分类
+        Route::get('update/{id?}','CategoryController@update');
+        Route::post('doUpdate','CategoryController@doUpdate');
+        //删除分类
+        Route::get('delete/{id?}','CategoryController@delete');
     });
     
 

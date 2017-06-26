@@ -92,6 +92,7 @@ class UserController extends Controller
             ];
 
             if($res && $time>120){
+                //需要过滤掉token值
                 zgz_code::where('phone',$request->phone)->update($data);
             } else if ($res == null) {
                 zgz_code::create($data);
@@ -150,8 +151,4 @@ class UserController extends Controller
         return redirect('/');
     }
 
-    public function index()
-    {
-        echo 1;
-    }
 }
