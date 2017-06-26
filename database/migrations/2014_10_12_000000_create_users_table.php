@@ -20,8 +20,8 @@ class CreateUsersTable extends Migration
             $table->string('password')->comment('用户登录密码');
             $table->string('email')->unique()->nullable()->comment('邮箱');
             $table->integer('sex')->default(1)->comment('0:男;1:女');
-            $table->string('city')->unllable()->comment('用户地址');
-            $table->string('desc')->unllable()->comment('描述');
+            $table->string('city')->nullable()->comment('用户地址');
+            $table->string('desc')->nullable()->comment('描述');
             $table->string('icon')->default('icon.png')->comment('用户头像');
             $table->integer('status')->default(1)->comment('0:禁用;1:激活');
             $table->integer('reg_status')->default(1)->comment('0:下线;1:在线');
