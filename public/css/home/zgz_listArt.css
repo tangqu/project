@@ -1,0 +1,321 @@
+#content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    background-color: #f1f2f3;
+.
+}
+#content2{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+    background-color: #f1f2f3;
+}
+ body, html {
+     background-color: #f1f2f3;
+ }
+#content * {
+    -webkit-box-sizing: border-box;
+}
+.wrap-container {
+    background-color: #fff;
+    float: left;
+    width: 956px;
+    padding: 36px 128px 72px;
+    border: 1px solid #dedfe0;
+}
+.article-detail h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 36px;
+    font-weight: 400;
+}
+.article-detail .blog-content {
+    color: #333;
+    font-size: 16px;
+    line-height: 2;
+}
+#content, body, html {
+    background-color: #f1f2f3;
+}
+.share-list {
+    margin-top: 36px;
+    height: 88px;
+}
+.dt-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+.share-list a, .share-list span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #666;
+}
+.pg-article-content, .share-list {
+    position: relative;
+    overflow: auto;
+}
+
+.share-list a {
+    width: 40px;
+    /*height: 32px;*/
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+    /*border-radius: 100%;*/
+    margin-right: 16px;
+}
+.share-list a.sina {
+    border-color: #e74c3c;
+}
+.share-list a.txweibo {
+    border-color: #4996d0;
+}
+.share-list a.qzone {
+    border-color: #ffba3d;
+}
+.wrap-siderbar {
+    float: right;
+    width: 224px;
+}
+.author {
+    background-color: #fff;
+    padding: 36px 24px;
+}
+.author .link {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto 20px;
+    position: relative;
+}
+.author .name {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+.author p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #999;
+    word-wrap: break-word;
+}
+.author .split-line {
+    width: 68px;
+    display: block;
+    margin: 20px auto;
+    height: 1px;
+    background-color: #e3e3e3;
+}
+.author .time {
+    display: block;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #999;
+}
+.htube-b {
+    width: 100%;
+    z-index: 10;
+    padding-bottom: 48px;
+}
+.htube-b-inner {
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 7;
+    padding-top: 32px;
+}
+.de-num, .htube-b, .htube-b-inner, .htube-bl .avatar {
+    position: relative;
+}
+.htube-bl {
+    float: left;
+    width: 956px;
+    border: 1px solid #DEDFE0;
+    border-radius: 2px;
+    background: #fff;
+}
+.htube-bl .avatar {
+    width: 36px;
+    height: 36px;
+    margin: 16px 12px;
+    display: block;
+    float: left;
+}
+.htube-bl .avatar img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.htube-bl .userinfo {
+    margin: 16px 0 16px 64px;
+    font-size: 13px;
+}
+.htube-bl .userinfo .name {
+    color: #444;
+}
+.htube-bl .userinfo i {
+    padding: 0 8px;
+}
+.htube-bl i {
+    color: #888;
+}
+.htube-bl .minealbums {
+    padding: 0 0 24px 64px;
+    border-bottom: 1px solid #EBEBEB;
+}
+dl, ul {
+    list-style: none;
+}
+.htube-bl .minealbums ul li, .htube-bl .otheralbums ul li {
+    height: 100px;
+    background: #F0F0F0;
+    width: 624px;
+    cursor: pointer;
+}
+.htube-bl .minealbums .obimg, .htube-bl .otheralbums .obimg {
+    width: 100%;
+    height: 100px;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+.htube-bl .minealbums ul li img, .htube-bl .otheralbums ul li img {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.htube-bl .minealbums .db, .htube-bl .otheralbums .db {
+    float: left;
+    padding: 16px 13px;
+}
+.htube-bl .minealbums .db-name, .htube-bl .otheralbums .db-name {
+    font-size: 13px;
+    color: #444;
+    font-weight: 700;
+}
+.htube-bl .db .db-like {
+    padding: 3px 0;
+}
+.htube-br {
+    width: 466px;
+    margin-left: 0;
+    float: right;
+    background: #fff;
+    border: 1px solid #DEDFE0;
+    border-radius: 2px;
+}
+.htube-br .reply-body {
+    background-color: #fff;
+}
+
+.htube-br .reply-area {
+    padding: 24px 16px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.htube-br .reply-area .smile {
+    width: 40px;
+}
+.reply-confirm {
+    float: left;
+    height: 32px;
+    width: 40px;
+    border-radius: 2px;
+    background: url('/picture/home/dianzan.png') 6px 3px no-repeat #FB3;
+}
+.pg-people-msg{
+    word-break:break-word;
+    width: 400px;
+}
+.reply-change {
+    float: left;
+    height: 32px;
+    width: 40px;
+    border-radius: 2px;
+    background: url('/picture/home/dianzan.png') 6px 3px no-repeat #FB3;
+    background-position: 6px -21px;
+}
+
+.htube-br .reply-area .dt-vline {
+    float: left;
+    background-color: #ebebeb;
+    width: 1px;
+    height: 32px;
+    margin-left: 15px;
+}
+.htube-br .cmt-more {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+}
+.htube-br .reply-text {
+    position: relative;
+    width: 364px;
+    float: left;
+}
+.htube-br .pr {
+    margin-left: 16px;
+}
+.reply-body dd {
+    margin-right: -80px;
+}
+.txa {
+    display: block;
+    width: 354px;
+    height: 27px;
+    border: 1px solid #C2C2C2;
+    border-radius: 0;
+    overflow: hidden;
+    font-size: 12px;
+}
+.htube-br .reply-editcont {
+    height: auto;
+    padding-bottom: 8px;
+}
+.abtn:link, .abtn:visited {
+    margin-right: 8px;
+    padding-left: 2px;
+    height: 30px;
+    overflow: hidden;
+    background-color: #22b4f6;
+    border-radius: 2px;
+}
+.abtn u {
+    display: inline-block;
+    padding: 0 16px;
+    height: 100%;
+    letter-spacing: 2px;
+    line-height: 31px;
+    font-family: '\5B8B\4F53';
+    color: #f7f7f7;
+}
+.pg-main-l-title {
+    width: 680px;
+    height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+}
+.art-bg{
+    width: 710px;
+    margin:0;
+    background: #fff;
+}
+.pg-main-letter{
+    border-bottom: 1px solid #e8e8e8;
+}
+.pg-t-msg-text {
+    margin-left: 52px;
+    text-align: left;
+}
+.pg-people-image {
+    float: left;
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    padding: 2px;
+}
+.pg-main-letter .pg-detail-people-info, .pg-t-msg-text {
+    margin-left: 52px;
+    text-align: left;
+}

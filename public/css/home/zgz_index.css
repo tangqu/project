@@ -1,0 +1,41 @@
+body{background-color: #f1f2f3 !important;}
+.dt-top{
+	width: 1200px;
+	height: 445px;
+	margin: 0 auto;
+}
+.dt-top-left{
+	float: left;
+	width: 707px;
+}
+.dt-top-right{
+    width: 468px;
+    float: right;
+}
+.dt-hot {
+    overflow: hidden;
+    background-color: #fff;
+    height: 291px;
+    padding: 0 32px;
+    border: 1px solid #dedfe0;
+}
+.dt-gdload {
+    display: block;
+    height: 130px;
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.dt-block {
+    width: 1200px;
+    margin: 0 auto;
+	margin-top: 40px;
+    border-top: 1px solid #d4d5d5;
+}
+
+.dt-block h2{
+    padding: 6px 0;
+    font-size: 18px;
+    color: #444;
+    float: left;
+}
