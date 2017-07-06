@@ -1,0 +1,167 @@
+
+#header{margin-bottom:39px}
+#header .dt-vline,.dt-search-line.hover{background-color:#ebebeb}
+#header .dt-vline{float:right;width:1px;height:24px;margin-top:20px}
+#header-fixed{position: fixed; bottom: auto; z-index: 998; width: 100%; height: 65px; left: 0px; right: auto; top: 0px;}
+.SG-sidecont img.dt-inviter-hidecover{display:none}
+.SG-sidecont{height:100%}
+#dt-header-btm,#dt-nav-content-cover{opacity:.12;filter:alpha(opacity=12);z-index:990}
+#dt-header-btm{height:1px;background-color:#000;box-shadow:0 1px 3px rgba(0,0,0,.8)}
+.dt-wrap{width:1200px;margin:0 auto}
+#dt-header {height: 64px;background-color: #fff;z-index: 998;font-size: 14px;}
+
+/* logo样式 */
+#dt-logo{float:left;width:100px;height:64px;background:url(/picture/home/logo.png) 0 0px no-repeat;text-indent:-9999px}
+
+/* 一级分类样式 */
+#dt-nav {margin-left: 22px;margin-top: 18px;float: left;position: relative;}
+#dt-nav-btn-cover {position: absolute;top: 0;left: 0;border: 1px solid #000;opacity: .12;filter: alpha(opacity=12);border-radius: 2px;}
+#dt-nav-btn {line-height: 26px;text-align: center;border: 1px solid #fff;border-radius: 2px;}
+#dt-nav-btn, #dt-nav-btn-cover {height: 26px;width: 68px;cursor: pointer;}
+#dt-nav-btn i {overflow: hidden;display: inline-block;width: 10px;height: 10px;margin-left: 4px;background-image: url(/picture/home/jian.png);background-repeat: no-repeat;background-position: 0 0;
+transition: transform .2s ease-out;}
+
+
+/* 关键字查询样式 */
+#dt-search {float: left;margin-left: 52px;margin-top: 16px;border: 1px solid #c5c5c5;z-index: 900;}
+#dt-search, #dt-search form {position: relative;}
+#dt-search form {width: 364px;}
+#dt-search button, #dt-search form {height: 30px;background-color: #fff;}
+#dt-search form .ipt{line-height: 21px;padding: 2px 2px 0 12px;border: 0;font-size: 12px;width: 322px;height: 25px;outline:none;}
+#dt-search button {position: absolute;top: 0;right: 0;width: 38px;outline: 0;border: 0;background-image: url(/picture/home/jin.png);background-repeat: no-repeat;background-position: 6px 1px;text-indent: -9999px;cursor: pointer;}
+
+/* 登录、注册按钮部分 */
+/* 手机客户端 */
+#dt-ologin {float: right;width: 110px;}
+.dt-ologin-icons {float: right;width: auto;height: 54px;padding-top: 14px;}
+.phone-icon {display: inline-block;width: 11px;height: 19px;background: url(/picture/home/phone.png) no-repeat;top: 4px;}
+.dt-ologin-icons , .phone-icon{position: relative;}
+.dt-ologin-icons a {padding: 0;width: 36px;height: 36px;border-radius: 36px;margin-right: 12px;}
+.for-phone {color: #444;font-size: 13px;}
+.dt-ologin-icons i {display: inline-block;width: 10px;height: 10px;margin-top: 14px;margin-left: 1px;background-image: url(/picture/home/jian.png);background-position: 0 0;}
+#header .dt-vline {float: right;width: 1px;height: 24px;margin-top: 20px;background-color: #ebebeb;}
+
+#dt-header-right .dt-head-cat {float: right;margin-left: 25px;margin-right: 25px;font-size: 13px;line-height: 64px;text-align: center;color: #444;text-decoration: none;}
+#dt-header .dt-btn {color: #fff;width: 52px;height: 28px;line-height: 28px;background-color: #35A2FF;border-radius: 3px;margin-top:17px;}
+#dt-header .dt-dreamer-a{color:#797575;}
+.dt-dreamer {background-color: #35A2FF;color: #fff;padding: 0 3px 2px;font-size: 10px;line-height: 10px;height: 10px;border-radius: 2px;}
+
+
+
+/* 尾部样式 */
+#footer {overflow: hidden;margin: 0 auto;}
+.footer .footcont {overflow: hidden;width: 100%;height: 68px;color: #444;background-color: #e1e2e3;}
+.footer .footwrap {width: 996px;margin: 0 auto;}
+.footer .dt-footer-frdlk {float: right;padding: 12px 0 0;overflow: hidden;}
+.footer .dt-footer-frdlk a{float: right;line-height: 36px;padding: 0 8px;color: #666;}
+.footer .dt-footer-frdlk a:hover{color:#35A2FF;}
+.footer .dt-footer-icp {float: left;margin: 22px 0 0;}
+
+
+/* 图片上传部分 */
+.upload-album-img{
+    display: none;
+    position: fixed;
+    top: 13%;
+    left: 32%;
+    width: 484px;
+    height: 465px;
+    background-color: #fff;
+    border: #B0B0B0;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2), 0 0 5px rgba(0,0,0,.2);
+}
+
+#sgcoll-pics{
+    width: 100%;
+    height: 183px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #ebebeb;
+    background-color: #f7f7f7;
+    z-index: 999;
+}
+#sgcoll-panel{
+    margin: 16px 28px 0;
+}
+#upload-Img-logout{
+    width: 46px;
+    height: 46px;
+    float: right;
+    text-align: center;
+    font-size:20px ;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    cursor: pointer; 
+}
+
+/* 创建专辑部分 */
+.tt-s {
+    height: 46px;
+    font-size: 16px;
+    line-height: 46px;
+    border-bottom: 1px solid #ebebeb;
+    color: #606060;
+    text-align: center;
+}
+
+.add-user-album{
+	display: none;
+    position: fixed;
+    top: 30%;
+    left: 27%;
+    width: 660px;
+    height: 272px;
+    background-color: #fff;
+    border: #B0B0B0;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2), 0 0 5px rgba(0,0,0,.2);
+    border-radius: 4px;
+}
+#add-album-logout{
+    width: 46px;
+    height: 46px;
+    float: right;
+    text-align: center;
+    font-size:20px ;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    cursor: pointer; 
+}
+.bq-choose{
+    float:left;margin:17px;width: 230px;
+}
+.bq-choose ul li{
+    float: left;
+    margin: 11px 11px 0 0;
+}
+.dis-float-info{
+    width:224px;height:308px;float: left;margin-right: 16px;margin-bottom: 20px;
+}
+.user-album{
+    position: absolute;
+    width: 226px;
+    height: 308px;
+    border: 1px solid #DDDDDD;
+    background: #fff;
+    overflow: hidden;
+}
+.user-album img{
+    overflow: hidden;
+    height: 224px;
+}
+.album-name{
+    border-top:1px solid #DDDDDD;
+    padding: 15px;
+    font-weight: 700;
+    color: #000;
+}
+.album-desc{
+    position: absolute;
+    left: 15px;
+    bottom: -2px;
+    color: #888896;
+    font-size: 12px;
+}
